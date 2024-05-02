@@ -64,7 +64,7 @@ spring.jpa.properties.hibernate.show_sql=true
 spring.jpa.properties.hibernate.use_sql_comments=true
 ```
 
-# ** Endpoints**
+# **Endpoints**
 
 Os Endpoints a seguir ilustram como usar alguns recursos concretamente:
 
