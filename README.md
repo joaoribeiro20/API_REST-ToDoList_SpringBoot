@@ -2,8 +2,8 @@
 
 o PROJETO a seguir tem como principal objetivo:
 
-- Uma aplicação de uma APIRest com controle de usuarios e manipulação de lista, com foco em praticar conhecimentos adiquiridos durantes estudos.
-- As principais funções dentro do sistema são as sequintes: create user, login user and an individual list for each user with crud functionality
+- Uma aplicação de uma API Rest com controle de usuários e manipulação de listas, com foco em praticar conhecimentos adquiridos durante estudos.
+- As principais funções dentro do sistema são as seguintes: criar usuário, fazer login do usuário e uma lista individual para cada usuário.
 
 ---
 
@@ -83,9 +83,9 @@ The following guides illustrate how to use some features concretely:
 
 ```java
 {
-	"name":"Joao",
-	"username":"joaozinho",
-	"email":"joaozinho@gmail.com",
+	"name":"Teste",
+	"username":"testeInicial",
+	"email":"testeInicial@gmail.com",
 	"password":"123"
 }
 ```
@@ -95,10 +95,10 @@ The following guides illustrate how to use some features concretely:
 ```java
 {
 	"id": "5a6ab725-1293-4f53-8070-701682deed8a",
-	"name": "Joao",
-	"username": "joaozinho",
+	"name": "Teste",
+	"username": "testeInicial",
 	"password": "123",
-	"email": "joaozinho@gmail.com",
+	"email": "testeInicial@gmail.com",
 	"createdAt": "2024-05-01T10:55:16.6729464"
 }
 ```
@@ -116,7 +116,7 @@ The following guides illustrate how to use some features concretely:
 
 ```java
 {
-	"username":"JoaoUpdateAllData",
+	"username":"testeInicial",
 	"password":"123456"
 }
 ```
@@ -126,9 +126,9 @@ The following guides illustrate how to use some features concretely:
 ```java
 {
 	"id": "23b377ad-0f67-4eb5-b34b-801a41aa3de4",
-	"name": "Joao",
-	"username": "joaozinho",
-	"email": "joaozinho@gmail.com",
+	"name": "Teste",
+	"username": "testeInicial",
+	"email": "testeInicial@gmail.com",
 	"createdAt": "2024-05-02T08:43:41.486564",
 	"tasks": []
 }
@@ -147,9 +147,9 @@ The following guides illustrate how to use some features concretely:
 
 ```java
 {
-	"name":"JoaoTesteRotaUpdateAllData",
-	"username":"JoaoUpdateAllData",
-	"email":"joaoUpdateAllData@gmail.com"
+	"name":"testeInicial",
+	"username":"testeInicialupdate",
+	"email":"testeInicialupdate@gmail.com"
 }
 ```
 
@@ -158,10 +158,10 @@ The following guides illustrate how to use some features concretely:
 ```java
 {
 	"id": "5a6ab725-1293-4f53-8070-701682deed8a",
-	"name": "JoaoTesteRotaUpdateAllData",
-	"username": "JoaoUpdateAllData",
+	"name": "testeInicial",
+	"username": "testeInicialUpdate",
 	"password": "123456",
-	"email": "joaoUpdateAllData@gmail.com",
+	"email": "testeInicialUpdate@gmail.com",
 	"createdAt": "2024-05-01T10:55:16.672946",
 	"updateAt": "2024-05-01T11:09:02.1732391"
 }
@@ -226,7 +226,7 @@ The following guides illustrate how to use some features concretely:
 
 ```java
 {
-  "title":"Teste 4 EEEEEE",
+  "title":"TesteA",
 	"description":"Lorem lorem lorem lorem",
 	"userid":"4ebac25f-4a04-4e4b-9e51-d12d47fbe989"
 }
@@ -237,7 +237,7 @@ The following guides illustrate how to use some features concretely:
 ```java
 {
 	"id": "2849510f-4bbb-4d5b-8f8e-515b4c1847ad",
-	"title": "Teste 4 EEEEEE",
+	"title": "TesteA",
 	"description": "Lorem lorem lorem lorem",
 	"taskStatus": "pending",
 	"createdAt": "2024-04-30T20:39:33.1564987",
@@ -266,7 +266,7 @@ The following guides illustrate how to use some features concretely:
 [
 	{
 		"id": "3b24ea59-bd7d-4d31-b3cb-5bb68d11a102",
-		"title": "Teste 1 AAAAAAA",
+		"title": "TesteA",
 		"description": "Lorem lorem lorem lorem",
 		"taskStatus": "pending",
 		"createdAt": "2024-04-30T11:33:59.613501",
@@ -274,7 +274,7 @@ The following guides illustrate how to use some features concretely:
 	},
 	{
 		"id": "5c464f52-eaad-45a3-82ae-d287f763924a",
-		"title": "Teste 3 EEEEEEE",
+		"title": "TestB",
 		"description": "Lorem lorem lorem lorem",
 		"taskStatus": "pending",
 		"createdAt": "2024-04-30T11:33:45.913812",
@@ -282,7 +282,7 @@ The following guides illustrate how to use some features concretely:
 	},
 	{
 		"id": "be531191-1d2c-4388-9db7-be06bfd4676b",
-		"title": "Teste 2 BBBBBBBBB",
+		"title": "TestC",
 		"description": "Lorem lorem lorem lorem",
 		"taskStatus": "pending",
 		"createdAt": "2024-04-30T11:33:53.99484",
@@ -314,7 +314,7 @@ Status disponivel no sistema : completed / pending
 [
 	{
 		"id": "0067dbce-eab0-406c-856b-25dade66e0d6",
-		"title": "Teste 1 AAAAAAA",
+		"title": "TestB",
 		"description": "Lorem lorem lorem lorem",
 		"taskStatus": "pending",
 		"createdAt": "2024-04-30T20:34:36.602814",
@@ -322,7 +322,7 @@ Status disponivel no sistema : completed / pending
 	},
 	{
 		"id": "157fa2f3-0da6-4d40-8d76-2032fd825fb8",
-		"title": "Teste 2 BBBBB",
+		"title": "TestA",
 		"description": "Lorem lorem lorem lorem",
 		"taskStatus": "pending",
 		"createdAt": "2024-04-30T20:34:48.494089",
@@ -330,7 +330,7 @@ Status disponivel no sistema : completed / pending
 	},
 	{
 		"id": "2849510f-4bbb-4d5b-8f8e-515b4c1847ad",
-		"title": "Teste 4 EEEEEE",
+		"title": "TestC",
 		"description": "Lorem lorem lorem lorem",
 		"taskStatus": "pending",
 		"createdAt": "2024-04-30T20:39:33.156499",
@@ -353,8 +353,8 @@ Status disponivel no sistema : completed / pending
 ```java
 {
   "id":"3b24ea59-bd7d-4d31-b3cb-5bb68d11a102",
-	"title":"ota de atualizar Task",
-	"description":"Droga"
+	"title":"TesteUpdate",
+	"description":"testando rota de update task"
 }
 ```
 
@@ -363,8 +363,8 @@ Status disponivel no sistema : completed / pending
 ```java
 {
 	"id": "7bc9a477-1b31-4abc-9352-7edace5cb284",
-	"title": "ota de atualizar Task",
-	"description": "Droga",
+	"title": "TesteUpdate",
+	"description": "testando rota de update task'",
 	"taskStatus": "pending",
 	"createdAt": "2024-05-02T08:57:13.807188",
 	"userid": "23b377ad-0f67-4eb5-b34b-801a41aa3de4"
