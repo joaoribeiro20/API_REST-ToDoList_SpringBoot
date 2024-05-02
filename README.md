@@ -27,13 +27,10 @@ o PROJETO a seguir tem como principal objetivo:
 $ git clone 
 
 # Acesse a pasta do projeto no terminal/cmd
-$ cd 
+$ cd API_REST-ToDoList_SpringBoot
 
 # Instale as dependências
 $ mvn clean package
-
-# Execute o comando para rodar a migrations  
-npm run migration:run
 
 # Execute a aplicação 
 $ mvn spring-boot:run
