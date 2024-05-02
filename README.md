@@ -17,7 +17,7 @@ o PROJETO a seguir tem como principal objetivo:
 - [Flyway Migration](https://docs.spring.io/spring-boot/docs/3.1.11/reference/htmlsingle/index.html#howto.data-initialization.migration-tool.flyway)
 - MySQL
 
-## **Pré-requisito**
+## **Requirement**
 
 - Spring Boot 3.1.11
 - Java 17
@@ -64,9 +64,9 @@ spring.jpa.properties.hibernate.show_sql=true
 spring.jpa.properties.hibernate.use_sql_comments=true
 ```
 
-# **Guides - Endpoints**
+# ** Endpoints**
 
-The following guides illustrate how to use some features concretely:
+Os Endpoints a seguir ilustram como usar alguns recursos concretamente:
 
 ---
 
